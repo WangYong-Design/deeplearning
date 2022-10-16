@@ -6,7 +6,6 @@ import torch.nn as nn
 from torch.utils.data import Dataset,DataLoader
 import numpy as np
 import argparse
-import wandb
 import pandas as pd
 from tensorboardX import SummaryWriter
 from src.Solver import Solver
@@ -46,15 +45,6 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 log_name = "-".join([argv.optimer,f"{argv.batch_size}",f"{argv.learning_rate}",argv.activation,
                 f"{argv.n_layers}",f"{argv.hidden_dim}",f"{argv.alias}"])
-if argv.wandb:
-    wandb.init(
-        project = 'deeplearning',
-        name=log_name,
-        group=log_name.split('_')[0],
-        save_code=True
-    )
-    wandb.config.update(argv)
-    wandb.run.log_code('.')
 
 if argv.save_path[-1] == "/":
     save_path = argv.save_path
@@ -88,29 +78,32 @@ logger = SummaryWriter(save_path + "tensorboard/" + log_name)
 
 activation = Activation[argv.activation]
 
-if "train_data.csv" not in os.listdir(data_path):
+if "data.csv" not in os.listdir(data_path):
     raise RuntimeError("Please make sure have generated data")
 
-train_data = pd.read_csv(data_path + "train_data.csv")
-eval_data  = pd.read_csv(data_path + "eval_data.csv")
-test_data  = pd.read_csv(data_path + "test_data.csv")
+data = pd.read_csv(data_path + "data.csv")
 
-train_X = torch.tensor(train_data.loc[:,"x"]).unsqueeze(1)
-train_y = torch.tensor(train_data.loc[:,"y"]).unsqueeze(1)
-
-eval_X = torch.tensor(eval_data.loc[:,"x"]).unsqueeze(1)
-eval_y = torch.tensor(eval_data.loc[:,"y"]).unsqueeze(1)
+test_X = torch.tensor(data.loc[9500:9999,"x"].values).unsqueeze(1)
+test_y = torch.tensor(data.loc[9500:9999,"y"].values).unsqueeze(1)
 
 model = Model(argv,activation).double()
 
-data = dict(train_X = train_X,train_y = train_y,
-            eval_X  = eval_X, eval_y  = eval_y )
+LOAD_PATH = save_path + "model_save/" + log_name + "/model.pt"
+checkout = torch.load(LOAD_PATH,map_location='cpu') \
+                if not torch.cuda.is_available() else torch.load(LOAD_PATH) 
+model.load_state_dict(checkout["model_state_dict"])
 
-solver = Solver(model,data,logger,**vars(argv))
+preds_y = model(test_X)
 
-solver.train()
+loss = torch.mean((test_y - preds_y)**2)
+# data = dict(train_X = train_X,train_y = train_y,
+#             eval_X  = eval_X, eval_y  = eval_y )
 
-print(True)
+# solver = Solver(model,data,logger,**vars(argv))
+
+
+
+print(loss)
 
 
 

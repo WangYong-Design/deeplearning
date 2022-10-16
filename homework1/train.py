@@ -96,8 +96,8 @@ data = pd.read_csv(data_path + "data.csv")
 train_X = torch.tensor(data.loc[:7999,"x"].values).unsqueeze(1)
 train_y = torch.tensor(data.loc[:7999,"y"].values).unsqueeze(1)
 
-eval_X = torch.tensor(data.loc[8000:8999,"x"].values).unsqueeze(1)
-eval_y = torch.tensor(data.loc[8000:8999,"y"].values).unsqueeze(1)
+eval_X = torch.tensor(data.loc[8000:9499,"x"].values).unsqueeze(1)
+eval_y = torch.tensor(data.loc[8000:9499,"y"].values).unsqueeze(1)
 
 model = Model(argv,activation).double()
 
@@ -108,6 +108,8 @@ solver = Solver(model,data,logger,**vars(argv))
 
 solver.train()
 
+torch.save({"model_state_dict":solver.best_model.state_dict()},
+            save_path + "model_save/" + log_name + "/model.pt")
 print(True)
 
 
