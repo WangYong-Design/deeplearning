@@ -1,0 +1,166 @@
+diff --git a/homework1/gen_data.py b/homework1/gen_data.py
+index bacf4d9..d2b1691 100644
+--- a/homework1/gen_data.py
++++ b/homework1/gen_data.py
+@@ -4,7 +4,7 @@ from re import I
+ import pandas as pd
+ import numpy as np
+ 
+-num_train = 10000
++num_data  = 10000
+ num_eval  = 1000
+ num_test  = 100
+ 
+@@ -13,36 +13,45 @@ save_path = "./data"
+ 
+ cols_idx = ["x","y"]
+ 
+-idx = 0
+-train_arr = np.zeros((num_train,2))
+-for x in np.linspace(0,4*math.pi,num_train):
+-    y = math.sin(x) + math.exp(-x)
+-    train_arr[idx][0] = x
+-    train_arr[idx][1] = y
+-    idx += 1
++data_arr = np.zeros((num_data,2))
+ 
+ idx = 0
+-eval_arr = np.zeros((num_eval,2))
+-for x in np.linspace(0,4*math.pi,num_eval):
++for x in np.random.uniform(0,4*math.pi,size = num_data):
+     y = math.sin(x) + math.exp(-x)
+-    eval_arr[idx][0] = x
+-    eval_arr[idx][1] = y
++    data_arr[idx][0] = x
++    data_arr[idx][1] = y
+     idx += 1
+ 
+-idx = 0
+-test_arr = np.zeros((num_test,2))
+-for x in np.linspace(0,4*math.pi,num_test):
+-    y = math.sin(x) + math.exp(-x)
+-    test_arr[idx][0] = x
+-    test_arr[idx][1] = y
+-    idx += 1
+-
+-train_data = pd.DataFrame(train_arr,columns = cols_idx)
+-train_data.to_csv(save_path+"/train_data.csv")
+-
+-eval_data  = pd.DataFrame(eval_arr,columns = cols_idx)
+-eval_data.to_csv(save_path + "/eval_data.csv")
+-
+-test_data  =  pd.DataFrame(test_arr,columns = cols_idx)
+-test_data.to_csv(save_path+"/test_data.csv")
++# idx = 0
++# train_arr = np.zeros((num_train,2))
++# for x in np.linspace(0,4*math.pi,num_train):
++#     y = math.sin(x) + math.exp(-x)
++#     train_arr[idx][0] = x
++#     train_arr[idx][1] = y
++#     idx += 1
++
++# idx = 0
++# eval_arr = np.zeros((num_eval,2))
++# for x in np.linspace(0,4*math.pi,num_eval):
++#     y = math.sin(x) + math.exp(-x)
++#     eval_arr[idx][0] = x
++#     eval_arr[idx][1] = y
++#     idx += 1
++
++# idx = 0
++# test_arr = np.zeros((num_test,2))
++# for x in np.linspace(0,4*math.pi,num_test):
++#     y = math.sin(x) + math.exp(-x)
++#     test_arr[idx][0] = x
++#     test_arr[idx][1] = y
++#     idx += 1
++
++data = pd.DataFrame(data_arr,columns = cols_idx)
++data.to_csv(save_path+"/data.csv")
++
++# eval_data  = pd.DataFrame(eval_arr,columns = cols_idx)
++# eval_data.to_csv(save_path + "/eval_data.csv")
++
++# test_data  =  pd.DataFrame(test_arr,columns = cols_idx)
++# test_data.to_csv(save_path+"/test_data.csv")
+ 
+diff --git a/homework1/result/tensorboard/adam-64-1e-05-Relu-3-64-0/events.out.tfevents.1665906933.DESKTOP-5SI7LHS b/homework1/result/tensorboard/adam-64-1e-05-Relu-3-64-0/events.out.tfevents.1665906933.DESKTOP-5SI7LHS
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/homework1/src/Solver.py b/homework1/src/Solver.py
+index b8fece0..5a8ec3a 100644
+--- a/homework1/src/Solver.py
++++ b/homework1/src/Solver.py
+@@ -144,7 +144,7 @@ class Solver(object):
+           end = (iter + 1) * batch_size
+           y_preds.append(self.model(X[start:end]))
+ 
+-        y_preds = np.hstack(y_preds)
++        y_preds = np.concatenate(y_preds,axis = 0)
+         acc = np.mean((y_preds - y.numpy())**2)
+         
+         return acc
+@@ -168,8 +168,8 @@ class Solver(object):
+             # Maybe print training loss
+             if t % self.print_every == 0:
+               print(
+-                    "(Iteration %d / %d) loss: %f"
+-                    % (t + 1, self.epochs, self.train_loss_his[-1])
++                    "(Iteration %d ) loss: %f"
++                    % (t + 1, self.train_loss_his[-1])
+                     )
+             t += 1
+           # Check train and val accuracy on the first iteration, the last
+@@ -184,7 +184,7 @@ class Solver(object):
+           self.train_loss_his.append(train_loss)
+           self.eval_loss_his.append(eval_loss)
+ 
+-          print(f"(Iteration {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
++          print(f"(Epoch {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
+ 
+           if eval_loss < self.best_val_acc:
+             for name,params in self.model.state_dict().items():
+@@ -193,8 +193,9 @@ class Solver(object):
+           self.logger.add_scalar("../result/" + "train_loss",train_loss,iter)
+           self.logger.add_scalar("../result/" + "train_loss",eval_loss,iter)
+           
++          log = dict(train_loss = train_loss,
++                    eval_loss = eval_loss)
+           if self.wandb:
+-            wandb.log(train_loss,iter)
+-            wandb.log(eval_loss,iter)
++            wandb.log(log,iter)
+ 
+ 
+diff --git a/homework1/src/__pycache__/Solver.cpython-310.pyc b/homework1/src/__pycache__/Solver.cpython-310.pyc
+index b3c15ee..3e9b775 100644
+Binary files a/homework1/src/__pycache__/Solver.cpython-310.pyc and b/homework1/src/__pycache__/Solver.cpython-310.pyc differ
+diff --git a/homework1/train.py b/homework1/train.py
+index 08c7bf7..951b929 100644
+--- a/homework1/train.py
++++ b/homework1/train.py
+@@ -88,18 +88,16 @@ logger = SummaryWriter(save_path + "tensorboard/" + log_name)
+ 
+ activation = Activation[argv.activation]
+ 
+-if "train_data.csv" not in os.listdir(data_path):
++if "data.csv" not in os.listdir(data_path):
+     raise RuntimeError("Please make sure have generated data")
+ 
+-train_data = pd.read_csv(data_path + "train_data.csv")
+-eval_data  = pd.read_csv(data_path + "eval_data.csv")
+-test_data  = pd.read_csv(data_path + "test_data.csv")
++data = pd.read_csv(data_path + "data.csv")
+ 
+-train_X = torch.tensor(train_data.loc[:,"x"]).unsqueeze(1)
+-train_y = torch.tensor(train_data.loc[:,"y"]).unsqueeze(1)
++train_X = torch.tensor(data.loc[:8000,"x"]).unsqueeze(1)
++train_y = torch.tensor(data.loc[:8000,"y"]).unsqueeze(1)
+ 
+-eval_X = torch.tensor(eval_data.loc[:,"x"]).unsqueeze(1)
+-eval_y = torch.tensor(eval_data.loc[:,"y"]).unsqueeze(1)
++eval_X = torch.tensor(data.loc[8000:9000,"x"]).unsqueeze(1)
++eval_y = torch.tensor(data.loc[8000:9000,"y"]).unsqueeze(1)
+ 
+ model = Model(argv,activation).double()
+ 

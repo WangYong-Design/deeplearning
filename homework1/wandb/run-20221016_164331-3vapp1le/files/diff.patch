@@ -1,0 +1,39 @@
+diff --git a/homework1/result/tensorboard/adam-64-1e-05-Relu-3-64-0/events.out.tfevents.1665906933.DESKTOP-5SI7LHS b/homework1/result/tensorboard/adam-64-1e-05-Relu-3-64-0/events.out.tfevents.1665906933.DESKTOP-5SI7LHS
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/homework1/src/Solver.py b/homework1/src/Solver.py
+index b8fece0..3401007 100644
+--- a/homework1/src/Solver.py
++++ b/homework1/src/Solver.py
+@@ -144,7 +144,7 @@ class Solver(object):
+           end = (iter + 1) * batch_size
+           y_preds.append(self.model(X[start:end]))
+ 
+-        y_preds = np.hstack(y_preds)
++        y_preds = np.concatenate(y_preds,axis = 0)
+         acc = np.mean((y_preds - y.numpy())**2)
+         
+         return acc
+@@ -168,8 +168,8 @@ class Solver(object):
+             # Maybe print training loss
+             if t % self.print_every == 0:
+               print(
+-                    "(Iteration %d / %d) loss: %f"
+-                    % (t + 1, self.epochs, self.train_loss_his[-1])
++                    "(Iteration %d ) loss: %f"
++                    % (t + 1, self.train_loss_his[-1])
+                     )
+             t += 1
+           # Check train and val accuracy on the first iteration, the last
+@@ -184,7 +184,7 @@ class Solver(object):
+           self.train_loss_his.append(train_loss)
+           self.eval_loss_his.append(eval_loss)
+ 
+-          print(f"(Iteration {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
++          print(f"(Epoch {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
+ 
+           if eval_loss < self.best_val_acc:
+             for name,params in self.model.state_dict().items():
+diff --git a/homework1/src/__pycache__/Solver.cpython-310.pyc b/homework1/src/__pycache__/Solver.cpython-310.pyc
+index b3c15ee..003bd0a 100644
+Binary files a/homework1/src/__pycache__/Solver.cpython-310.pyc and b/homework1/src/__pycache__/Solver.cpython-310.pyc differ

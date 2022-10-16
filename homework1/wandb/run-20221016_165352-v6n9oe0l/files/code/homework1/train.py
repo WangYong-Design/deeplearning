@@ -93,11 +93,11 @@ if "data.csv" not in os.listdir(data_path):
 
 data = pd.read_csv(data_path + "data.csv")
 
-train_X = torch.tensor(data.loc[:7999,"x"].values).unsqueeze(1)
-train_y = torch.tensor(data.loc[:7999,"y"].values).unsqueeze(1)
+train_X = torch.tensor(data.loc[:8000,"x"]).unsqueeze(1)
+train_y = torch.tensor(data.loc[:8000,"y"]).unsqueeze(1)
 
-eval_X = torch.tensor(data.loc[8000:8999,"x"].values).unsqueeze(1)
-eval_y = torch.tensor(data.loc[8000:8999,"y"].values).unsqueeze(1)
+eval_X = torch.tensor(data.loc[8000:9000,"x"]).unsqueeze(1)
+eval_y = torch.tensor(data.loc[8000:9000,"y"]).unsqueeze(1)
 
 model = Model(argv,activation).double()
 

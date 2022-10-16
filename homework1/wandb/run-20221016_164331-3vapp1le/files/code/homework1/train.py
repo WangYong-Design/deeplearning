@@ -88,16 +88,18 @@ logger = SummaryWriter(save_path + "tensorboard/" + log_name)
 
 activation = Activation[argv.activation]
 
-if "data.csv" not in os.listdir(data_path):
+if "train_data.csv" not in os.listdir(data_path):
     raise RuntimeError("Please make sure have generated data")
 
-data = pd.read_csv(data_path + "data.csv")
+train_data = pd.read_csv(data_path + "train_data.csv")
+eval_data  = pd.read_csv(data_path + "eval_data.csv")
+test_data  = pd.read_csv(data_path + "test_data.csv")
 
-train_X = torch.tensor(data.loc[:7999,"x"].values).unsqueeze(1)
-train_y = torch.tensor(data.loc[:7999,"y"].values).unsqueeze(1)
+train_X = torch.tensor(train_data.loc[:,"x"]).unsqueeze(1)
+train_y = torch.tensor(train_data.loc[:,"y"]).unsqueeze(1)
 
-eval_X = torch.tensor(data.loc[8000:8999,"x"].values).unsqueeze(1)
-eval_y = torch.tensor(data.loc[8000:8999,"y"].values).unsqueeze(1)
+eval_X = torch.tensor(eval_data.loc[:,"x"]).unsqueeze(1)
+eval_y = torch.tensor(eval_data.loc[:,"y"]).unsqueeze(1)
 
 model = Model(argv,activation).double()
 

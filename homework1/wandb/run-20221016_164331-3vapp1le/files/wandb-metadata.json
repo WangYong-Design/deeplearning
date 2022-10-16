@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.6",
+    "heartbeatAt": "2022-10-16T08:43:35.909059",
+    "startedAt": "2022-10-16T08:43:31.284842",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--epochs",
+        "100",
+        "--batch-size",
+        "64",
+        "--learning-rate",
+        "1e-5",
+        "--optimer",
+        "adam",
+        "--hidden_dim",
+        "64",
+        "--n_layers",
+        "3",
+        "--activation",
+        "Relu"
+    ],
+    "state": "running",
+    "program": "w:\\VSCode\\deeplearning\\homework1\\train.py",
+    "codePath": "homework1\\train.py",
+    "git": {
+        "remote": "git@github.com:WangYong-Design/deeplearning.git",
+        "commit": "09e4fe32a9cf7abeb7d0c55da13ac20a5f4dbbb3"
+    },
+    "email": "20183020910262whu.edu.cn",
+    "root": "W:/VSCode/deeplearning",
+    "host": "DESKTOP-5SI7LHS",
+    "username": "wangyon",
+    "executable": "D:\\Anconda\\envs\\graphormer\\python.exe"
+}

@@ -144,7 +144,7 @@ class Solver(object):
           end = (iter + 1) * batch_size
           y_preds.append(self.model(X[start:end]))
 
-        y_preds = np.hstack(y_preds)
+        y_preds = np.concatenate(y_preds,axis = 0)
         acc = np.mean((y_preds - y.numpy())**2)
         
         return acc
@@ -168,8 +168,8 @@ class Solver(object):
             # Maybe print training loss
             if t % self.print_every == 0:
               print(
-                    "(Iteration %d / %d) loss: %f"
-                    % (t + 1, self.epochs, self.train_loss_his[-1])
+                    "(Iteration %d ) loss: %f"
+                    % (t + 1, self.train_loss_his[-1])
                     )
             t += 1
           # Check train and val accuracy on the first iteration, the last
@@ -184,7 +184,7 @@ class Solver(object):
           self.train_loss_his.append(train_loss)
           self.eval_loss_his.append(eval_loss)
 
-          print(f"(Iteration {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
+          print(f"(Epoch {iter} % {self.epochs}) train loss: {train_loss}, eval loss: {eval_loss}")
 
           if eval_loss < self.best_val_acc:
             for name,params in self.model.state_dict().items():
@@ -193,8 +193,9 @@ class Solver(object):
           self.logger.add_scalar("../result/" + "train_loss",train_loss,iter)
           self.logger.add_scalar("../result/" + "train_loss",eval_loss,iter)
           
+          log = dict(train_loss = train_loss,
+                    eval_loss = eval_loss)
           if self.wandb:
-            wandb.log(train_loss,iter)
-            wandb.log(eval_loss,iter)
+            wandb.log(log,iter)
 
 
