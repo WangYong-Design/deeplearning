@@ -13,7 +13,7 @@ class Model(nn.Module):
         self.proj_layer  = nn.Linear(1,self.hidden_dim)
         self.activation = self.activation
         self.hidd_layers = nn.Sequential()
-        for _ in range(self.n_layers):
+        for _ in range(self.n_layers-2):
             self.hidd_layers.append(nn.Linear(self.hidden_dim,self.hidden_dim))
             self.hidd_layers.append(self.activation)
         self.out_layer = nn.Linear(self.hidden_dim,1)
