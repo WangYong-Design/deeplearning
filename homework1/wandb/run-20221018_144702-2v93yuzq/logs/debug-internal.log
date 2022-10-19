@@ -1,0 +1,752 @@
+2022-10-18 14:47:02,938 INFO    StreamThr :19636 [internal.py:wandb_internal():88] W&B internal server running at pid: 19636, started at: 2022-10-18 14:47:02.936010
+2022-10-18 14:47:02,955 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: status
+2022-10-18 14:47:02,969 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: status
+2022-10-18 14:47:02,981 INFO    WriterThread:19636 [datastore.py:open_for_write():75] open: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\run-2v93yuzq.wandb
+2022-10-18 14:47:02,982 DEBUG   SenderThread:19636 [sender.py:send():303] send: header
+2022-10-18 14:47:03,248 DEBUG   SenderThread:19636 [sender.py:send():303] send: run
+2022-10-18 14:47:05,574 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: check_version
+2022-10-18 14:47:05,618 INFO    SenderThread:19636 [dir_watcher.py:__init__():216] watching files in: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files
+2022-10-18 14:47:05,620 INFO    SenderThread:19636 [sender.py:_start_run_threads():928] run started: 2v93yuzq with start time 1666075622.898109
+2022-10-18 14:47:05,620 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:05,622 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:05,625 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: check_version
+2022-10-18 14:47:06,641 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:07,299 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: run_start
+2022-10-18 14:47:07,355 DEBUG   HandlerThread:19636 [meta.py:__init__():34] meta init
+2022-10-18 14:47:07,356 DEBUG   HandlerThread:19636 [meta.py:__init__():49] meta init done
+2022-10-18 14:47:07,356 DEBUG   HandlerThread:19636 [meta.py:probe():215] probe
+2022-10-18 14:47:07,376 DEBUG   HandlerThread:19636 [meta.py:_setup_git():205] setup git
+2022-10-18 14:47:07,598 DEBUG   HandlerThread:19636 [meta.py:_setup_git():212] setup git done
+2022-10-18 14:47:07,599 DEBUG   HandlerThread:19636 [meta.py:_save_code():87] save code
+2022-10-18 14:47:07,735 DEBUG   HandlerThread:19636 [meta.py:_save_code():108] save code done
+2022-10-18 14:47:07,736 DEBUG   HandlerThread:19636 [meta.py:_save_patches():125] save patches
+2022-10-18 14:47:08,410 DEBUG   HandlerThread:19636 [meta.py:_save_patches():167] save patches done
+2022-10-18 14:47:08,411 DEBUG   HandlerThread:19636 [meta.py:_save_pip():53] save pip
+2022-10-18 14:47:08,415 DEBUG   HandlerThread:19636 [meta.py:_save_pip():67] save pip done
+2022-10-18 14:47:08,416 DEBUG   HandlerThread:19636 [meta.py:_save_conda():74] save conda
+2022-10-18 14:47:08,653 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\upstream_diff_fe99c200ea18d5056de58baf49ae778178b89731.patch
+2022-10-18 14:47:08,654 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\conda-environment.yaml
+2022-10-18 14:47:08,656 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\requirements.txt
+2022-10-18 14:47:08,657 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\diff.patch
+2022-10-18 14:47:08,658 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\code\homework1\train.py
+2022-10-18 14:47:08,660 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\code\homework1
+2022-10-18 14:47:08,661 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\code
+2022-10-18 14:47:11,337 DEBUG   HandlerThread:19636 [meta.py:_save_conda():84] save conda done
+2022-10-18 14:47:11,338 DEBUG   HandlerThread:19636 [meta.py:probe():253] probe done
+2022-10-18 14:47:11,564 DEBUG   SenderThread:19636 [sender.py:send():303] send: files
+2022-10-18 14:47:11,565 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:47:11,565 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-18 14:47:11,570 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file code\homework1\train.py with policy now
+2022-10-18 14:47:11,572 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file diff.patch with policy now
+2022-10-18 14:47:11,574 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file upstream_diff_fe99c200ea18d5056de58baf49ae778178b89731.patch with policy now
+2022-10-18 14:47:11,577 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:47:11,672 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-metadata.json
+2022-10-18 14:47:12,498 DEBUG   SenderThread:19636 [sender.py:send():303] send: telemetry
+2022-10-18 14:47:12,499 DEBUG   SenderThread:19636 [sender.py:send():303] send: config
+2022-10-18 14:47:12,501 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-18 14:47:12,502 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-18 14:47:12,564 INFO    Thread-42 :19636 [upload_job.py:push():123] Skipped uploading C:\Users\wangyon\AppData\Local\Temp\tmp5o2insaewandb\3es0xkw7-code/homework1/train.py
+2022-10-18 14:47:13,415 INFO    Thread-44 :19636 [upload_job.py:push():143] Uploaded file C:\Users\wangyon\AppData\Local\Temp\tmp5o2insaewandb\287w1h7a-upstream_diff_fe99c200ea18d5056de58baf49ae778178b89731.patch
+2022-10-18 14:47:13,555 INFO    Thread-41 :19636 [upload_job.py:push():143] Uploaded file C:\Users\wangyon\AppData\Local\Temp\tmp5o2insaewandb\p9dtiklz-wandb-metadata.json
+2022-10-18 14:47:13,670 INFO    Thread-43 :19636 [upload_job.py:push():143] Uploaded file C:\Users\wangyon\AppData\Local\Temp\tmp5o2insaewandb\f2ali7oj-diff.patch
+2022-10-18 14:47:14,191 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:15,730 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:17,552 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:19,253 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:19,444 INFO    Thread-48 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\d4\1d8cd98f00b204e9800998ecf8427e
+2022-10-18 14:47:19,444 INFO    Thread-49 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\ba\6f258d1d14294aaff78fd0beaca028
+2022-10-18 14:47:19,445 INFO    Thread-50 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\5f\b1532e6304d53d316a1a6eab7df898
+2022-10-18 14:47:19,445 INFO    Thread-51 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\61\fbfb857bd114893cf21539559ccd06
+2022-10-18 14:47:19,445 INFO    Thread-52 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\d6\b5aa9c86efd053d29156fdf1fa6612
+2022-10-18 14:47:19,446 INFO    Thread-46 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\1c\3c57283f66489d28fbe9f977ea783b
+2022-10-18 14:47:19,446 INFO    Thread-47 :19636 [upload_job.py:push():98] Skipped uploading C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\88\2b03a0d18974654b6ee27ef265ca87
+2022-10-18 14:47:20,738 INFO    Thread-53 :19636 [upload_job.py:push():101] Uploaded file C:\Users\wangyon\.cache\wandb\artifacts\obj\md5\7a\dae272393ebc2615833cac591e9eb6
+2022-10-18 14:47:21,079 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:22,935 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:24,176 INFO    SenderThread:19636 [sender.py:send_request_log_artifact():1222] logged artifact source-deeplearning-homework1_train.py - {'id': 'QXJ0aWZhY3Q6MjMzODgyMzgz', 'digest': '25f19f528c87d31b09961b33dd286993', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxNjg5MzUx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjMzODcyNjk5', 'versionIndex': 23}}, 'version': 'latest'}
+2022-10-18 14:47:24,205 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,206 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,213 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,226 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,227 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,229 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,241 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,242 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,243 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,254 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,254 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,256 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,263 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,263 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,264 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,601 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:24,602 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:24,603 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:24,606 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:24,940 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:24,941 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_created():275] file/dir created: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:26,130 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:26,133 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:26,134 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:26,137 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:26,959 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:26,960 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:27,513 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:47:27,514 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:47:27,731 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:28,454 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:28,455 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:28,458 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:28,975 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:28,976 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:29,361 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:29,363 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:29,364 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:29,367 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:29,985 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:30,860 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:30,861 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:30,861 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:30,863 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:31,002 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:31,003 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:32,550 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:32,553 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:32,554 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:32,556 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:33,029 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:33,030 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:34,047 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\config.yaml
+2022-10-18 14:47:34,273 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:34,273 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:34,274 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:34,278 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:35,058 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:35,060 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:35,956 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:35,959 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:35,960 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:35,963 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:36,064 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:37,080 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:37,702 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:37,704 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:37,705 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:37,708 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:38,081 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:39,093 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:39,500 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:39,503 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:39,504 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:39,507 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:39,546 DEBUG   SenderThread:19636 [sender.py:send():303] send: stats
+2022-10-18 14:47:40,107 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:41,110 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:41,218 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:41,221 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:41,222 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:41,226 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:42,119 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:43,025 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:43,028 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:43,030 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:43,033 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:43,135 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:43,137 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:43,463 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:47:43,464 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:47:44,650 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:44,652 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:44,653 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:44,656 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:45,177 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:45,179 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:46,436 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:46,437 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:46,438 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:46,440 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:47,198 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:47,199 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:48,111 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:48,113 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:48,115 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:48,119 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:48,201 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:49,219 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:49,808 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:49,811 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:49,812 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:49,815 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:50,236 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:51,254 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:51,490 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:51,493 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:51,494 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:51,497 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:52,267 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:52,891 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:52,893 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:52,895 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:52,898 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:53,282 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:53,284 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:54,479 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:54,482 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:54,483 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:54,486 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:55,298 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:55,299 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:56,182 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:56,184 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:56,186 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:56,189 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:56,309 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:57,326 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:57,887 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:47:57,889 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:47:57,890 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:47:57,893 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:47:58,339 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:47:59,355 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:47:59,355 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:47:59,366 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:47:59,531 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:00,252 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:00,254 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:00,257 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:00,393 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:01,147 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:01,149 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:01,151 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:01,155 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:01,396 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:01,397 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:02,970 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:02,973 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:02,975 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:02,978 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:03,410 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:03,411 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:04,700 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:04,702 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:04,703 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:04,707 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:05,439 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:05,440 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:06,395 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:06,396 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:06,397 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:06,399 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:06,456 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:07,472 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:07,981 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:07,984 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:07,986 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:07,989 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:08,480 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:09,495 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:09,811 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:09,813 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:09,815 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:09,819 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:10,508 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:11,518 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:11,520 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:11,521 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:11,524 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:11,548 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:11,549 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:13,176 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:13,178 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:13,180 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:13,182 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:13,576 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:13,578 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:13,882 DEBUG   SenderThread:19636 [sender.py:send():303] send: stats
+2022-10-18 14:48:14,942 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:14,943 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:14,944 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:14,947 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:15,267 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:48:15,268 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:48:15,611 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:15,612 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:16,735 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:16,736 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:16,737 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:16,739 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:17,643 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:17,645 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:18,398 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:18,401 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:18,403 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:18,406 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:18,654 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:19,670 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:20,192 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:20,195 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:20,196 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:20,199 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:20,685 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:21,691 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:21,928 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:21,930 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:21,931 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:21,935 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:22,707 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:23,601 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:23,604 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:23,604 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:23,607 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:23,729 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:23,730 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:25,306 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:25,319 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:25,321 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:25,324 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:25,755 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:25,756 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:26,838 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:26,841 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:26,842 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:26,845 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:27,835 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:27,836 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:28,169 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:28,171 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:28,172 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:28,176 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:28,842 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:29,530 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:29,532 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:29,533 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:29,537 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:29,876 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:29,877 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:30,837 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:30,839 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:30,841 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:30,844 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:30,885 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:31,225 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:48:31,226 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:48:31,914 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:32,189 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:32,207 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:32,207 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:32,208 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:32,923 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:33,559 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:33,562 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:33,563 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:33,567 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:33,936 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:33,937 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:34,878 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:34,880 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:34,881 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:34,885 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:34,952 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:35,970 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:36,257 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:36,259 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:36,260 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:36,263 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:36,978 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:37,590 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:37,591 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:37,591 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:37,593 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:38,034 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:38,036 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:38,952 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:38,964 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:38,966 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:38,987 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:39,049 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:40,082 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:40,285 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:40,287 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:40,288 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:40,292 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:41,090 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:41,604 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:41,607 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:41,608 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:41,612 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:42,174 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:42,176 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:42,964 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:42,966 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:42,967 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:42,971 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:43,207 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:44,213 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:44,317 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:44,320 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:44,321 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:44,323 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:45,221 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:45,571 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:45,573 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:45,574 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:45,577 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:46,255 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:46,256 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:46,835 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:46,837 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:46,838 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:46,841 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:47,133 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:48:47,134 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:48:47,260 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:48,136 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:48,138 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:48,139 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:48,142 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:48,144 DEBUG   SenderThread:19636 [sender.py:send():303] send: stats
+2022-10-18 14:48:48,273 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:48,274 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:49,422 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:49,424 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:49,425 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:49,428 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:50,340 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:50,341 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:50,675 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:50,677 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:50,678 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:50,681 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:51,355 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:52,015 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:52,017 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:52,018 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:52,022 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:52,390 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:52,392 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:53,356 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:53,358 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:53,359 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:53,362 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:53,406 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:54,416 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:54,722 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:54,724 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:54,725 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:54,729 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:55,431 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:56,044 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:56,047 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:56,048 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:56,052 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:56,448 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:56,449 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:57,382 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:57,384 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:57,386 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:57,389 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:57,455 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:48:58,506 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:48:58,726 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:48:58,729 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:48:58,730 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:48:58,733 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:48:59,517 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:00,036 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:00,038 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:00,039 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:00,043 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:00,557 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:00,559 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:01,325 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:01,327 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:01,329 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:01,331 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:01,564 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:02,623 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:02,709 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:02,712 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:02,712 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:02,715 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:03,109 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:49:03,110 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:49:03,628 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:04,010 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:04,028 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:04,031 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:04,035 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:04,653 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:04,655 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:05,354 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:05,356 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:05,358 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:05,361 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:05,672 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:06,708 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:06,721 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:06,723 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:06,724 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:06,727 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:07,719 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:08,091 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:08,094 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:08,095 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:08,098 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:08,750 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:08,752 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:09,435 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:09,437 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:09,438 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:09,442 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:09,761 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:10,792 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:10,795 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:10,797 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:10,800 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:10,803 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:11,810 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:12,040 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:12,042 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:12,043 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:12,046 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:12,857 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:12,859 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:13,415 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:13,417 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:13,418 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:13,421 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:13,872 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:14,754 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:14,755 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:14,756 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:14,759 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:14,906 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:14,908 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:16,073 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:16,075 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:16,076 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:16,079 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:16,959 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:16,961 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:17,555 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:17,558 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:17,559 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:17,562 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:17,967 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:18,884 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:18,886 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:18,887 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:18,890 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:19,006 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:19,007 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:19,046 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:49:19,047 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:49:20,239 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:20,241 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:20,242 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:20,245 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:21,038 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:21,040 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:21,595 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:21,596 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:21,597 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:21,598 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:22,047 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:22,360 DEBUG   SenderThread:19636 [sender.py:send():303] send: stats
+2022-10-18 14:49:22,915 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:22,917 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:22,919 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:22,934 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:23,093 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:23,095 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:24,183 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:24,185 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:24,186 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:24,189 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:25,129 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:25,131 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:25,504 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:25,506 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:25,507 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:25,511 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:26,137 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:26,880 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:26,882 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:26,883 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:26,887 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:27,187 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:27,188 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:28,255 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:28,258 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:28,259 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:28,263 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:29,237 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:29,239 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:29,557 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:29,559 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:29,560 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:29,563 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:30,252 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:30,891 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:30,893 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:30,894 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:30,898 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:31,270 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:31,271 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:32,235 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:32,237 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:32,239 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:32,242 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:32,278 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:33,361 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:33,594 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:33,597 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:33,598 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:33,617 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:34,377 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:34,953 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:34,956 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:34,957 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:34,960 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:34,981 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-18 14:49:34,982 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: stop_status
+2022-10-18 14:49:35,415 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:35,416 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:36,309 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:36,311 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:36,312 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:36,316 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:36,433 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:37,452 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:37,624 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:37,626 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:37,628 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:37,630 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:38,465 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:39,028 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:39,030 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:39,031 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:39,034 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:39,482 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:39,483 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:40,426 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:40,428 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:40,429 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:40,433 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:40,497 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:41,533 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:41,726 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-18 14:49:41,728 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:41,729 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:41,732 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:42,505 DEBUG   SenderThread:19636 [sender.py:send():303] send: exit
+2022-10-18 14:49:42,507 INFO    SenderThread:19636 [sender.py:send_exit():442] handling exit code: 0
+2022-10-18 14:49:42,508 INFO    SenderThread:19636 [sender.py:send_exit():444] handling runtime: 155
+2022-10-18 14:49:42,511 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:42,514 INFO    SenderThread:19636 [sender.py:send_exit():450] send defer
+2022-10-18 14:49:42,516 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,517 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-18 14:49:42,518 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,518 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-18 14:49:42,519 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 1
+2022-10-18 14:49:42,521 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,521 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-18 14:49:42,551 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:42,635 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,636 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-18 14:49:42,637 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 2
+2022-10-18 14:49:42,638 DEBUG   SenderThread:19636 [sender.py:send():303] send: stats
+2022-10-18 14:49:42,640 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,641 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-18 14:49:42,643 DEBUG   SenderThread:19636 [sender.py:send():303] send: history
+2022-10-18 14:49:42,644 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:42,646 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:42,648 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,648 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-18 14:49:42,649 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 3
+2022-10-18 14:49:42,650 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,650 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-18 14:49:42,651 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,652 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-18 14:49:42,652 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 4
+2022-10-18 14:49:42,653 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,654 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-18 14:49:42,655 DEBUG   SenderThread:19636 [sender.py:send():303] send: summary
+2022-10-18 14:49:42,657 INFO    SenderThread:19636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-18 14:49:42,659 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,659 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-18 14:49:42,659 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 5
+2022-10-18 14:49:42,661 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,661 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-18 14:49:42,662 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,662 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-18 14:49:42,663 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 6
+2022-10-18 14:49:42,664 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:42,664 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-18 14:49:42,665 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:42,666 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-18 14:49:43,577 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 7
+2022-10-18 14:49:43,580 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-18 14:49:43,581 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-18 14:49:43,586 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:43,587 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-18 14:49:43,588 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:43,588 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-18 14:49:43,589 INFO    SenderThread:19636 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-18 14:49:43,592 INFO    Thread-23 :19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:43,598 INFO    SenderThread:19636 [dir_watcher.py:_on_file_modified():292] file/dir modified: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:43,600 INFO    SenderThread:19636 [dir_watcher.py:finish():392] scan: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files
+2022-10-18 14:49:43,601 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\conda-environment.yaml conda-environment.yaml
+2022-10-18 14:49:43,603 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\config.yaml config.yaml
+2022-10-18 14:49:43,604 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\diff.patch diff.patch
+2022-10-18 14:49:43,605 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log output.log
+2022-10-18 14:49:43,608 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\requirements.txt requirements.txt
+2022-10-18 14:49:43,636 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\upstream_diff_fe99c200ea18d5056de58baf49ae778178b89731.patch upstream_diff_fe99c200ea18d5056de58baf49ae778178b89731.patch
+2022-10-18 14:49:43,640 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-metadata.json wandb-metadata.json
+2022-10-18 14:49:43,645 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json wandb-summary.json
+2022-10-18 14:49:43,742 INFO    SenderThread:19636 [dir_watcher.py:finish():406] scan save: W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\code\homework1\train.py code\homework1\train.py
+2022-10-18 14:49:43,742 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 8
+2022-10-18 14:49:43,746 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:43,747 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-18 14:49:43,748 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:43,748 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-18 14:49:43,750 INFO    SenderThread:19636 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-18 14:49:44,566 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-18 14:49:44,568 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-18 14:49:45,517 INFO    Thread-54 :19636 [upload_job.py:push():143] Uploaded file W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\config.yaml
+2022-10-18 14:49:45,517 INFO    Thread-57 :19636 [upload_job.py:push():143] Uploaded file W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\wandb-summary.json
+2022-10-18 14:49:45,522 INFO    Thread-56 :19636 [upload_job.py:push():143] Uploaded file W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\requirements.txt
+2022-10-18 14:49:45,580 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-18 14:49:45,582 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-18 14:49:45,965 INFO    Thread-55 :19636 [upload_job.py:push():143] Uploaded file W:\VSCode\deeplearning\homework1\wandb\run-20221018_144702-2v93yuzq\files\output.log
+2022-10-18 14:49:46,183 INFO    Thread-22 (_thread_body):19636 [sender.py:transition_state():463] send defer: 9
+2022-10-18 14:49:46,185 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:46,185 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-18 14:49:46,186 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:46,187 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-18 14:49:46,187 INFO    SenderThread:19636 [file_pusher.py:join():173] waiting for file pusher
+2022-10-18 14:49:46,188 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 10
+2022-10-18 14:49:46,189 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:46,190 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-18 14:49:46,190 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:46,191 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-18 14:49:46,526 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 11
+2022-10-18 14:49:46,527 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:46,528 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-18 14:49:46,528 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:46,529 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-18 14:49:46,529 INFO    SenderThread:19636 [sender.py:transition_state():463] send defer: 12
+2022-10-18 14:49:46,531 DEBUG   SenderThread:19636 [sender.py:send():303] send: final
+2022-10-18 14:49:46,532 DEBUG   SenderThread:19636 [sender.py:send():303] send: footer
+2022-10-18 14:49:46,532 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: defer
+2022-10-18 14:49:46,533 INFO    HandlerThread:19636 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-18 14:49:46,533 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: defer
+2022-10-18 14:49:46,534 INFO    SenderThread:19636 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-18 14:49:46,538 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-18 14:49:46,542 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-18 14:49:46,544 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-18 14:49:46,545 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-18 14:49:46,546 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: server_info
+2022-10-18 14:49:46,547 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-18 14:49:46,548 DEBUG   SenderThread:19636 [sender.py:send_request():317] send_request: server_info
+2022-10-18 14:49:46,564 DEBUG   HandlerThread:19636 [handler.py:handle_request():138] handle_request: sampled_history

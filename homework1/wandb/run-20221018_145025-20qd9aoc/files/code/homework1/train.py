@@ -24,7 +24,7 @@ parser.add_argument("--epochs",type=int,nargs="?",default = 100,help="train epoc
 parser.add_argument("--alias",type=str,nargs="?",default=0,
                     help = "Please enter the alias")
 parser.add_argument("--wandb",action="store_false")
-parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 32,
+parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 16,
                     help = "train batch size")
 parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-3,
                     help = "learning rate")

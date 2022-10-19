@@ -34,7 +34,7 @@ parser.add_argument("--hidden-dim",type=int,nargs="?",default = 32,
                     help = "width size of the NN")
 parser.add_argument("--n-layers",type=int,nargs="?",default=3,
                     help = "depth size of the NN")
-parser.add_argument("--activation",type = str,nargs="?",default = "Relu",
+parser.add_argument("--activation",type = str,nargs="?",default = "S",
                     help = "nonlinear activation function")
 
 

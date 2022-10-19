@@ -1,0 +1,13 @@
+diff --git a/homework1/train.py b/homework1/train.py
+index d47080f..9f4971c 100644
+--- a/homework1/train.py
++++ b/homework1/train.py
+@@ -26,7 +26,7 @@ parser.add_argument("--alias",type=str,nargs="?",default=0,
+ parser.add_argument("--wandb",action="store_false")
+ parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 64,
+                     help = "train batch size")
+-parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-3,
++parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-4,
+                     help = "learning rate")
+ parser.add_argument("--optimer",type=str,nargs="?",default="adam",
+                     help = "optimier to train")

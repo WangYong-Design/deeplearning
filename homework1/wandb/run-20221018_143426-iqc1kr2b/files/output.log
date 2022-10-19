@@ -1,0 +1,801 @@
+(Iteration 1 ) loss: 0.940537
+(Iteration 21 ) loss: 0.643866
+(Iteration 41 ) loss: 0.640897
+(Iteration 61 ) loss: 0.662430
+(Iteration 81 ) loss: 0.603122
+(Iteration 101 ) loss: 0.631126
+(Iteration 121 ) loss: 0.594050
+(Epoch 0 % 100) train loss: 0.593321697967694, eval loss: 0.5910159396576725
+(Iteration 1 ) loss: 0.605372
+(Iteration 21 ) loss: 0.538327
+(Iteration 41 ) loss: 0.534881
+(Iteration 61 ) loss: 0.587478
+(Iteration 81 ) loss: 0.435835
+(Iteration 101 ) loss: 0.658233
+(Iteration 121 ) loss: 0.561721
+(Epoch 1 % 100) train loss: 0.5471377647160964, eval loss: 0.5392852203754797
+(Iteration 1 ) loss: 0.588918
+(Iteration 21 ) loss: 0.521086
+(Iteration 41 ) loss: 0.586731
+(Iteration 61 ) loss: 0.527356
+(Iteration 81 ) loss: 0.557217
+(Iteration 101 ) loss: 0.423166
+(Iteration 121 ) loss: 0.518029
+(Epoch 2 % 100) train loss: 0.48338802613187604, eval loss: 0.5001190730631735
+(Iteration 1 ) loss: 0.484431
+(Iteration 21 ) loss: 0.540743
+(Iteration 41 ) loss: 0.487155
+(Iteration 61 ) loss: 0.519529
+(Iteration 81 ) loss: 0.462627
+(Iteration 101 ) loss: 0.464672
+(Iteration 121 ) loss: 0.413381
+(Epoch 3 % 100) train loss: 0.458155874485934, eval loss: 0.467097735245335
+(Iteration 1 ) loss: 0.515716
+(Iteration 21 ) loss: 0.430755
+(Iteration 41 ) loss: 0.413235
+(Iteration 61 ) loss: 0.426933
+(Iteration 81 ) loss: 0.496429
+(Iteration 101 ) loss: 0.436161
+(Iteration 121 ) loss: 0.515828
+(Epoch 4 % 100) train loss: 0.43964942568603305, eval loss: 0.4409835022512115
+(Iteration 1 ) loss: 0.473754
+(Iteration 21 ) loss: 0.415421
+(Iteration 41 ) loss: 0.414710
+(Iteration 61 ) loss: 0.463041
+(Iteration 81 ) loss: 0.431862
+(Iteration 101 ) loss: 0.498584
+(Iteration 121 ) loss: 0.446705
+(Epoch 5 % 100) train loss: 0.41213715373494975, eval loss: 0.42154978255534653
+(Iteration 1 ) loss: 0.473692
+(Iteration 21 ) loss: 0.321275
+(Iteration 41 ) loss: 0.521356
+(Iteration 61 ) loss: 0.541351
+(Iteration 81 ) loss: 0.549111
+(Iteration 101 ) loss: 0.504020
+(Iteration 121 ) loss: 0.552221
+(Epoch 6 % 100) train loss: 0.3924256410450276, eval loss: 0.4060344627331142
+(Iteration 1 ) loss: 0.463485
+(Iteration 21 ) loss: 0.324983
+(Iteration 41 ) loss: 0.361685
+(Iteration 61 ) loss: 0.384028
+(Iteration 81 ) loss: 0.381253
+(Iteration 101 ) loss: 0.449166
+(Iteration 121 ) loss: 0.440170
+(Epoch 7 % 100) train loss: 0.38394848897489253, eval loss: 0.3957788066535249
+(Iteration 1 ) loss: 0.337027
+(Iteration 21 ) loss: 0.406260
+(Iteration 41 ) loss: 0.429385
+(Iteration 61 ) loss: 0.287874
+(Iteration 81 ) loss: 0.388875
+(Iteration 101 ) loss: 0.401552
+(Iteration 121 ) loss: 0.351433
+(Epoch 8 % 100) train loss: 0.3988496228437008, eval loss: 0.3891928607211007
+(Iteration 1 ) loss: 0.300877
+(Iteration 21 ) loss: 0.471336
+(Iteration 41 ) loss: 0.397457
+(Iteration 61 ) loss: 0.435228
+(Iteration 81 ) loss: 0.348305
+(Iteration 101 ) loss: 0.322215
+(Iteration 121 ) loss: 0.292075
+(Epoch 9 % 100) train loss: 0.3690969254488735, eval loss: 0.38268540994001893
+(Iteration 1 ) loss: 0.408657
+(Iteration 21 ) loss: 0.433033
+(Iteration 41 ) loss: 0.392840
+(Iteration 61 ) loss: 0.350555
+(Iteration 81 ) loss: 0.404803
+(Iteration 101 ) loss: 0.412103
+(Iteration 121 ) loss: 0.386282
+(Epoch 10 % 100) train loss: 0.3691144729562349, eval loss: 0.37838007956200176
+(Iteration 1 ) loss: 0.375577
+(Iteration 21 ) loss: 0.457889
+(Iteration 41 ) loss: 0.351776
+(Iteration 61 ) loss: 0.448404
+(Iteration 81 ) loss: 0.264026
+(Iteration 101 ) loss: 0.371196
+(Iteration 121 ) loss: 0.349345
+(Epoch 11 % 100) train loss: 0.3685130763902851, eval loss: 0.37201236111280545
+(Iteration 1 ) loss: 0.396570
+(Iteration 21 ) loss: 0.407095
+(Iteration 41 ) loss: 0.366545
+(Iteration 61 ) loss: 0.295000
+(Iteration 81 ) loss: 0.343353
+(Iteration 101 ) loss: 0.293744
+(Iteration 121 ) loss: 0.381414
+(Epoch 12 % 100) train loss: 0.3788347999861969, eval loss: 0.368545268469337
+(Iteration 1 ) loss: 0.407638
+(Iteration 21 ) loss: 0.386474
+(Iteration 41 ) loss: 0.279142
+(Iteration 61 ) loss: 0.359246
+(Iteration 81 ) loss: 0.414290
+(Iteration 101 ) loss: 0.346044
+(Iteration 121 ) loss: 0.334590
+(Epoch 13 % 100) train loss: 0.3667339647784395, eval loss: 0.3616421232704179
+(Iteration 1 ) loss: 0.311956
+(Iteration 21 ) loss: 0.406328
+(Iteration 41 ) loss: 0.339281
+(Iteration 61 ) loss: 0.351097
+(Iteration 81 ) loss: 0.361567
+(Iteration 101 ) loss: 0.416894
+(Iteration 121 ) loss: 0.360934
+(Epoch 14 % 100) train loss: 0.36822365775397203, eval loss: 0.35643379907760553
+(Iteration 1 ) loss: 0.394271
+(Iteration 21 ) loss: 0.465416
+(Iteration 41 ) loss: 0.422666
+(Iteration 61 ) loss: 0.399918
+(Iteration 81 ) loss: 0.328147
+(Iteration 101 ) loss: 0.394020
+(Iteration 121 ) loss: 0.365293
+(Epoch 15 % 100) train loss: 0.362930062895867, eval loss: 0.3526188424934294
+(Iteration 1 ) loss: 0.358727
+(Iteration 21 ) loss: 0.379523
+(Iteration 41 ) loss: 0.298396
+(Iteration 61 ) loss: 0.398907
+(Iteration 81 ) loss: 0.470286
+(Iteration 101 ) loss: 0.300914
+(Iteration 121 ) loss: 0.327095
+(Epoch 16 % 100) train loss: 0.34893077946142603, eval loss: 0.34898067431583935
+(Iteration 1 ) loss: 0.372837
+(Iteration 21 ) loss: 0.460705
+(Iteration 41 ) loss: 0.338247
+(Iteration 61 ) loss: 0.375044
+(Iteration 81 ) loss: 0.407422
+(Iteration 101 ) loss: 0.392332
+(Iteration 121 ) loss: 0.434222
+(Epoch 17 % 100) train loss: 0.3585336022227373, eval loss: 0.345708632080492
+(Iteration 1 ) loss: 0.322082
+(Iteration 21 ) loss: 0.267178
+(Iteration 41 ) loss: 0.396789
+(Iteration 61 ) loss: 0.269980
+(Iteration 81 ) loss: 0.359014
+(Iteration 101 ) loss: 0.338112
+(Iteration 121 ) loss: 0.247475
+(Epoch 18 % 100) train loss: 0.327005110735768, eval loss: 0.34260374361503565
+(Iteration 1 ) loss: 0.392733
+(Iteration 21 ) loss: 0.397707
+(Iteration 41 ) loss: 0.375044
+(Iteration 61 ) loss: 0.302838
+(Iteration 81 ) loss: 0.388289
+(Iteration 101 ) loss: 0.414314
+(Iteration 121 ) loss: 0.338340
+(Epoch 19 % 100) train loss: 0.3402328716431416, eval loss: 0.3394358916109759
+(Iteration 1 ) loss: 0.312890
+(Iteration 21 ) loss: 0.390867
+(Iteration 41 ) loss: 0.428040
+(Iteration 61 ) loss: 0.377725
+(Iteration 81 ) loss: 0.352272
+(Iteration 101 ) loss: 0.339135
+(Iteration 121 ) loss: 0.320121
+(Epoch 20 % 100) train loss: 0.34247926868435535, eval loss: 0.3405420121952171
+(Iteration 1 ) loss: 0.452563
+(Iteration 21 ) loss: 0.317326
+(Iteration 41 ) loss: 0.349605
+(Iteration 61 ) loss: 0.252014
+(Iteration 81 ) loss: 0.342642
+(Iteration 101 ) loss: 0.289026
+(Iteration 121 ) loss: 0.410613
+(Epoch 21 % 100) train loss: 0.3461786564840714, eval loss: 0.33422331075288664
+(Iteration 1 ) loss: 0.386110
+(Iteration 21 ) loss: 0.401789
+(Iteration 41 ) loss: 0.378336
+(Iteration 61 ) loss: 0.239329
+(Iteration 81 ) loss: 0.323625
+(Iteration 101 ) loss: 0.371228
+(Iteration 121 ) loss: 0.361165
+(Epoch 22 % 100) train loss: 0.32504654634804614, eval loss: 0.33171506415400415
+(Iteration 1 ) loss: 0.265445
+(Iteration 21 ) loss: 0.363477
+(Iteration 41 ) loss: 0.266346
+(Iteration 61 ) loss: 0.273708
+(Iteration 81 ) loss: 0.353284
+(Iteration 101 ) loss: 0.296656
+(Iteration 121 ) loss: 0.308603
+(Epoch 23 % 100) train loss: 0.3298336610877475, eval loss: 0.3286847058172149
+(Iteration 1 ) loss: 0.345826
+(Iteration 21 ) loss: 0.386614
+(Iteration 41 ) loss: 0.302491
+(Iteration 61 ) loss: 0.375423
+(Iteration 81 ) loss: 0.291610
+(Iteration 101 ) loss: 0.245472
+(Iteration 121 ) loss: 0.334690
+(Epoch 24 % 100) train loss: 0.33695467120378203, eval loss: 0.3274371906326834
+(Iteration 1 ) loss: 0.356759
+(Iteration 21 ) loss: 0.232743
+(Iteration 41 ) loss: 0.356073
+(Iteration 61 ) loss: 0.363297
+(Iteration 81 ) loss: 0.241837
+(Iteration 101 ) loss: 0.325795
+(Iteration 121 ) loss: 0.244777
+(Epoch 25 % 100) train loss: 0.3361858178897328, eval loss: 0.32452686982799206
+(Iteration 1 ) loss: 0.256249
+(Iteration 21 ) loss: 0.219780
+(Iteration 41 ) loss: 0.276150
+(Iteration 61 ) loss: 0.274711
+(Iteration 81 ) loss: 0.373401
+(Iteration 101 ) loss: 0.302479
+(Iteration 121 ) loss: 0.275357
+(Epoch 26 % 100) train loss: 0.3300244280638364, eval loss: 0.3220617136614736
+(Iteration 1 ) loss: 0.321856
+(Iteration 21 ) loss: 0.307160
+(Iteration 41 ) loss: 0.291395
+(Iteration 61 ) loss: 0.325252
+(Iteration 81 ) loss: 0.309522
+(Iteration 101 ) loss: 0.314997
+(Iteration 121 ) loss: 0.261639
+(Epoch 27 % 100) train loss: 0.3163349906287784, eval loss: 0.31892373235311766
+(Iteration 1 ) loss: 0.347967
+(Iteration 21 ) loss: 0.292395
+(Iteration 41 ) loss: 0.350182
+(Iteration 61 ) loss: 0.264557
+(Iteration 81 ) loss: 0.219311
+(Iteration 101 ) loss: 0.261424
+(Iteration 121 ) loss: 0.281028
+(Epoch 28 % 100) train loss: 0.33096934559990393, eval loss: 0.3170380595035319
+(Iteration 1 ) loss: 0.279074
+(Iteration 21 ) loss: 0.283391
+(Iteration 41 ) loss: 0.310152
+(Iteration 61 ) loss: 0.258243
+(Iteration 81 ) loss: 0.296445
+(Iteration 101 ) loss: 0.322196
+(Iteration 121 ) loss: 0.330984
+(Epoch 29 % 100) train loss: 0.3086533991778565, eval loss: 0.31604196196154594
+(Iteration 1 ) loss: 0.319585
+(Iteration 21 ) loss: 0.290386
+(Iteration 41 ) loss: 0.361039
+(Iteration 61 ) loss: 0.289952
+(Iteration 81 ) loss: 0.355564
+(Iteration 101 ) loss: 0.292971
+(Iteration 121 ) loss: 0.326138
+(Epoch 30 % 100) train loss: 0.29418175902811494, eval loss: 0.31190903211400645
+(Iteration 1 ) loss: 0.403285
+(Iteration 21 ) loss: 0.274092
+(Iteration 41 ) loss: 0.395920
+(Iteration 61 ) loss: 0.274357
+(Iteration 81 ) loss: 0.316261
+(Iteration 101 ) loss: 0.283354
+(Iteration 121 ) loss: 0.325509
+(Epoch 31 % 100) train loss: 0.33132466658578674, eval loss: 0.30928131229539474
+(Iteration 1 ) loss: 0.342945
+(Iteration 21 ) loss: 0.339789
+(Iteration 41 ) loss: 0.327968
+(Iteration 61 ) loss: 0.358313
+(Iteration 81 ) loss: 0.272190
+(Iteration 101 ) loss: 0.252335
+(Iteration 121 ) loss: 0.315438
+(Epoch 32 % 100) train loss: 0.30485822092797893, eval loss: 0.30707888386634274
+(Iteration 1 ) loss: 0.310954
+(Iteration 21 ) loss: 0.328074
+(Iteration 41 ) loss: 0.266856
+(Iteration 61 ) loss: 0.306852
+(Iteration 81 ) loss: 0.262686
+(Iteration 101 ) loss: 0.401374
+(Iteration 121 ) loss: 0.319830
+(Epoch 33 % 100) train loss: 0.32327582749546585, eval loss: 0.30527424778294254
+(Iteration 1 ) loss: 0.245501
+(Iteration 21 ) loss: 0.251936
+(Iteration 41 ) loss: 0.233951
+(Iteration 61 ) loss: 0.331036
+(Iteration 81 ) loss: 0.227606
+(Iteration 101 ) loss: 0.257653
+(Iteration 121 ) loss: 0.283670
+(Epoch 34 % 100) train loss: 0.30297985838741665, eval loss: 0.3023756657034305
+(Iteration 1 ) loss: 0.381626
+(Iteration 21 ) loss: 0.310123
+(Iteration 41 ) loss: 0.252802
+(Iteration 61 ) loss: 0.293917
+(Iteration 81 ) loss: 0.305085
+(Iteration 101 ) loss: 0.265225
+(Iteration 121 ) loss: 0.307471
+(Epoch 35 % 100) train loss: 0.31059141698641474, eval loss: 0.2999032868752764
+(Iteration 1 ) loss: 0.301733
+(Iteration 21 ) loss: 0.255981
+(Iteration 41 ) loss: 0.251740
+(Iteration 61 ) loss: 0.349283
+(Iteration 81 ) loss: 0.293215
+(Iteration 101 ) loss: 0.220044
+(Iteration 121 ) loss: 0.287638
+(Epoch 36 % 100) train loss: 0.2927105574303952, eval loss: 0.29723489992483815
+(Iteration 1 ) loss: 0.335632
+(Iteration 21 ) loss: 0.242455
+(Iteration 41 ) loss: 0.320199
+(Iteration 61 ) loss: 0.325939
+(Iteration 81 ) loss: 0.278901
+(Iteration 101 ) loss: 0.254459
+(Iteration 121 ) loss: 0.269613
+(Epoch 37 % 100) train loss: 0.29743667181377037, eval loss: 0.29467836872607656
+(Iteration 1 ) loss: 0.267746
+(Iteration 21 ) loss: 0.264557
+(Iteration 41 ) loss: 0.246713
+(Iteration 61 ) loss: 0.266800
+(Iteration 81 ) loss: 0.328586
+(Iteration 101 ) loss: 0.290959
+(Iteration 121 ) loss: 0.292665
+(Epoch 38 % 100) train loss: 0.2644069244343475, eval loss: 0.29207844598406785
+(Iteration 1 ) loss: 0.242338
+(Iteration 21 ) loss: 0.301587
+(Iteration 41 ) loss: 0.313600
+(Iteration 61 ) loss: 0.254263
+(Iteration 81 ) loss: 0.288961
+(Iteration 101 ) loss: 0.307582
+(Iteration 121 ) loss: 0.279377
+(Epoch 39 % 100) train loss: 0.29606987126706596, eval loss: 0.289702149382225
+(Iteration 1 ) loss: 0.299558
+(Iteration 21 ) loss: 0.292020
+(Iteration 41 ) loss: 0.261690
+(Iteration 61 ) loss: 0.263940
+(Iteration 81 ) loss: 0.324078
+(Iteration 101 ) loss: 0.376156
+(Iteration 121 ) loss: 0.328851
+(Epoch 40 % 100) train loss: 0.27573487116188905, eval loss: 0.2871814148432668
+(Iteration 1 ) loss: 0.363194
+(Iteration 21 ) loss: 0.215677
+(Iteration 41 ) loss: 0.317550
+(Iteration 61 ) loss: 0.333774
+(Iteration 81 ) loss: 0.310193
+(Iteration 101 ) loss: 0.361182
+(Iteration 121 ) loss: 0.290628
+(Epoch 41 % 100) train loss: 0.2716342237622854, eval loss: 0.2843786014573161
+(Iteration 1 ) loss: 0.236484
+(Iteration 21 ) loss: 0.281559
+(Iteration 41 ) loss: 0.236791
+(Iteration 61 ) loss: 0.288497
+(Iteration 81 ) loss: 0.216037
+(Iteration 101 ) loss: 0.321178
+(Iteration 121 ) loss: 0.247923
+(Epoch 42 % 100) train loss: 0.28909846236487385, eval loss: 0.2815884609065827
+(Iteration 1 ) loss: 0.260474
+(Iteration 21 ) loss: 0.302379
+(Iteration 41 ) loss: 0.299571
+(Iteration 61 ) loss: 0.294122
+(Iteration 81 ) loss: 0.350807
+(Iteration 101 ) loss: 0.259679
+(Iteration 121 ) loss: 0.274947
+(Epoch 43 % 100) train loss: 0.28442217625328126, eval loss: 0.27873477820461984
+(Iteration 1 ) loss: 0.299257
+(Iteration 21 ) loss: 0.268342
+(Iteration 41 ) loss: 0.235072
+(Iteration 61 ) loss: 0.248252
+(Iteration 81 ) loss: 0.364850
+(Iteration 101 ) loss: 0.291577
+(Iteration 121 ) loss: 0.281041
+(Epoch 44 % 100) train loss: 0.26242901881987984, eval loss: 0.27606908544373815
+(Iteration 1 ) loss: 0.218206
+(Iteration 21 ) loss: 0.245578
+(Iteration 41 ) loss: 0.323053
+(Iteration 61 ) loss: 0.247676
+(Iteration 81 ) loss: 0.325174
+(Iteration 101 ) loss: 0.239950
+(Iteration 121 ) loss: 0.323712
+(Epoch 45 % 100) train loss: 0.2726017601853317, eval loss: 0.2732871748260986
+(Iteration 1 ) loss: 0.249134
+(Iteration 21 ) loss: 0.264807
+(Iteration 41 ) loss: 0.233227
+(Iteration 61 ) loss: 0.285442
+(Iteration 81 ) loss: 0.248743
+(Iteration 101 ) loss: 0.331652
+(Iteration 121 ) loss: 0.362720
+(Epoch 46 % 100) train loss: 0.2774670861367008, eval loss: 0.2701550903517478
+(Iteration 1 ) loss: 0.224605
+(Iteration 21 ) loss: 0.272894
+(Iteration 41 ) loss: 0.277967
+(Iteration 61 ) loss: 0.221084
+(Iteration 81 ) loss: 0.263736
+(Iteration 101 ) loss: 0.328131
+(Iteration 121 ) loss: 0.230739
+(Epoch 47 % 100) train loss: 0.26926115635244546, eval loss: 0.2670196340906105
+(Iteration 1 ) loss: 0.321180
+(Iteration 21 ) loss: 0.290639
+(Iteration 41 ) loss: 0.229993
+(Iteration 61 ) loss: 0.291789
+(Iteration 81 ) loss: 0.297868
+(Iteration 101 ) loss: 0.232055
+(Iteration 121 ) loss: 0.315199
+(Epoch 48 % 100) train loss: 0.257893164464224, eval loss: 0.26434319760105174
+(Iteration 1 ) loss: 0.151090
+(Iteration 21 ) loss: 0.259764
+(Iteration 41 ) loss: 0.248144
+(Iteration 61 ) loss: 0.251232
+(Iteration 81 ) loss: 0.277218
+(Iteration 101 ) loss: 0.275119
+(Iteration 121 ) loss: 0.262438
+(Epoch 49 % 100) train loss: 0.2645667313727263, eval loss: 0.26096722066695244
+(Iteration 1 ) loss: 0.280156
+(Iteration 21 ) loss: 0.256924
+(Iteration 41 ) loss: 0.293657
+(Iteration 61 ) loss: 0.227413
+(Iteration 81 ) loss: 0.250831
+(Iteration 101 ) loss: 0.227225
+(Iteration 121 ) loss: 0.341574
+(Epoch 50 % 100) train loss: 0.25270117981470586, eval loss: 0.25876710515586804
+(Iteration 1 ) loss: 0.340329
+(Iteration 21 ) loss: 0.221198
+(Iteration 41 ) loss: 0.277635
+(Iteration 61 ) loss: 0.242423
+(Iteration 81 ) loss: 0.240211
+(Iteration 101 ) loss: 0.239829
+(Iteration 121 ) loss: 0.247122
+(Epoch 51 % 100) train loss: 0.24913885244292241, eval loss: 0.2553305925951848
+(Iteration 1 ) loss: 0.308310
+(Iteration 21 ) loss: 0.246536
+(Iteration 41 ) loss: 0.255894
+(Iteration 61 ) loss: 0.330972
+(Iteration 81 ) loss: 0.327556
+(Iteration 101 ) loss: 0.246854
+(Iteration 121 ) loss: 0.249680
+(Epoch 52 % 100) train loss: 0.2656044236393239, eval loss: 0.25291521665786415
+(Iteration 1 ) loss: 0.295256
+(Iteration 21 ) loss: 0.296325
+(Iteration 41 ) loss: 0.178156
+(Iteration 61 ) loss: 0.249310
+(Iteration 81 ) loss: 0.240088
+(Iteration 101 ) loss: 0.249261
+(Iteration 121 ) loss: 0.229419
+(Epoch 53 % 100) train loss: 0.25432595647486556, eval loss: 0.24855137587098547
+(Iteration 1 ) loss: 0.232042
+(Iteration 21 ) loss: 0.247757
+(Iteration 41 ) loss: 0.226073
+(Iteration 61 ) loss: 0.253393
+(Iteration 81 ) loss: 0.246507
+(Iteration 101 ) loss: 0.264256
+(Iteration 121 ) loss: 0.336388
+(Epoch 54 % 100) train loss: 0.24741040164225755, eval loss: 0.24644760883830685
+(Iteration 1 ) loss: 0.248193
+(Iteration 21 ) loss: 0.155667
+(Iteration 41 ) loss: 0.214137
+(Iteration 61 ) loss: 0.249032
+(Iteration 81 ) loss: 0.230410
+(Iteration 101 ) loss: 0.210952
+(Iteration 121 ) loss: 0.322972
+(Epoch 55 % 100) train loss: 0.24882703046498003, eval loss: 0.24302569758390694
+(Iteration 1 ) loss: 0.270535
+(Iteration 21 ) loss: 0.244770
+(Iteration 41 ) loss: 0.189043
+(Iteration 61 ) loss: 0.279125
+(Iteration 81 ) loss: 0.229366
+(Iteration 101 ) loss: 0.224740
+(Iteration 121 ) loss: 0.277817
+(Epoch 56 % 100) train loss: 0.24474002208295903, eval loss: 0.23911988272061854
+(Iteration 1 ) loss: 0.219031
+(Iteration 21 ) loss: 0.286045
+(Iteration 41 ) loss: 0.266028
+(Iteration 61 ) loss: 0.241238
+(Iteration 81 ) loss: 0.155132
+(Iteration 101 ) loss: 0.178216
+(Iteration 121 ) loss: 0.211428
+(Epoch 57 % 100) train loss: 0.2309812728972925, eval loss: 0.23597542903257873
+(Iteration 1 ) loss: 0.160779
+(Iteration 21 ) loss: 0.231382
+(Iteration 41 ) loss: 0.259038
+(Iteration 61 ) loss: 0.248158
+(Iteration 81 ) loss: 0.198177
+(Iteration 101 ) loss: 0.199836
+(Iteration 121 ) loss: 0.265752
+(Epoch 58 % 100) train loss: 0.24122962054944413, eval loss: 0.23325078427076026
+(Iteration 1 ) loss: 0.220821
+(Iteration 21 ) loss: 0.207025
+(Iteration 41 ) loss: 0.215806
+(Iteration 61 ) loss: 0.207520
+(Iteration 81 ) loss: 0.193076
+(Iteration 101 ) loss: 0.277144
+(Iteration 121 ) loss: 0.252614
+(Epoch 59 % 100) train loss: 0.23491752831806798, eval loss: 0.22871699960837247
+(Iteration 1 ) loss: 0.286444
+(Iteration 21 ) loss: 0.275443
+(Iteration 41 ) loss: 0.213920
+(Iteration 61 ) loss: 0.245589
+(Iteration 81 ) loss: 0.208322
+(Iteration 101 ) loss: 0.179397
+(Iteration 121 ) loss: 0.173484
+(Epoch 60 % 100) train loss: 0.22655475245857556, eval loss: 0.2258788073149022
+(Iteration 1 ) loss: 0.229670
+(Iteration 21 ) loss: 0.218760
+(Iteration 41 ) loss: 0.278193
+(Iteration 61 ) loss: 0.237550
+(Iteration 81 ) loss: 0.261866
+(Iteration 101 ) loss: 0.160664
+(Iteration 121 ) loss: 0.222320
+(Epoch 61 % 100) train loss: 0.22083029386730904, eval loss: 0.22202856477576682
+(Iteration 1 ) loss: 0.241567
+(Iteration 21 ) loss: 0.208010
+(Iteration 41 ) loss: 0.234491
+(Iteration 61 ) loss: 0.192423
+(Iteration 81 ) loss: 0.236299
+(Iteration 101 ) loss: 0.181420
+(Iteration 121 ) loss: 0.193054
+(Epoch 62 % 100) train loss: 0.2270330045668527, eval loss: 0.21856037238457782
+(Iteration 1 ) loss: 0.215951
+(Iteration 21 ) loss: 0.175837
+(Iteration 41 ) loss: 0.180295
+(Iteration 61 ) loss: 0.225839
+(Iteration 81 ) loss: 0.229418
+(Iteration 101 ) loss: 0.212867
+(Iteration 121 ) loss: 0.214125
+(Epoch 63 % 100) train loss: 0.22357589404969438, eval loss: 0.21527255401467843
+(Iteration 1 ) loss: 0.221416
+(Iteration 21 ) loss: 0.227853
+(Iteration 41 ) loss: 0.202938
+(Iteration 61 ) loss: 0.275325
+(Iteration 81 ) loss: 0.144187
+(Iteration 101 ) loss: 0.227980
+(Iteration 121 ) loss: 0.194802
+(Epoch 64 % 100) train loss: 0.20657229802158358, eval loss: 0.2130404035368112
+(Iteration 1 ) loss: 0.208143
+(Iteration 21 ) loss: 0.202039
+(Iteration 41 ) loss: 0.216472
+(Iteration 61 ) loss: 0.214491
+(Iteration 81 ) loss: 0.137352
+(Iteration 101 ) loss: 0.183123
+(Iteration 121 ) loss: 0.237709
+(Epoch 65 % 100) train loss: 0.21207549411827262, eval loss: 0.20922437695854995
+(Iteration 1 ) loss: 0.244691
+(Iteration 21 ) loss: 0.204379
+(Iteration 41 ) loss: 0.190990
+(Iteration 61 ) loss: 0.195060
+(Iteration 81 ) loss: 0.198510
+(Iteration 101 ) loss: 0.228883
+(Iteration 121 ) loss: 0.207271
+(Epoch 66 % 100) train loss: 0.20420220974725897, eval loss: 0.20782433901467134
+(Iteration 1 ) loss: 0.225653
+(Iteration 21 ) loss: 0.170581
+(Iteration 41 ) loss: 0.190136
+(Iteration 61 ) loss: 0.214619
+(Iteration 81 ) loss: 0.241314
+(Iteration 101 ) loss: 0.199826
+(Iteration 121 ) loss: 0.200562
+(Epoch 67 % 100) train loss: 0.20333798043695456, eval loss: 0.2019190788261607
+(Iteration 1 ) loss: 0.205208
+(Iteration 21 ) loss: 0.200393
+(Iteration 41 ) loss: 0.204053
+(Iteration 61 ) loss: 0.153368
+(Iteration 81 ) loss: 0.182197
+(Iteration 101 ) loss: 0.254761
+(Iteration 121 ) loss: 0.165243
+(Epoch 68 % 100) train loss: 0.18459088077119445, eval loss: 0.19841545634189042
+(Iteration 1 ) loss: 0.166015
+(Iteration 21 ) loss: 0.239738
+(Iteration 41 ) loss: 0.198132
+(Iteration 61 ) loss: 0.224945
+(Iteration 81 ) loss: 0.161129
+(Iteration 101 ) loss: 0.176855
+(Iteration 121 ) loss: 0.197161
+(Epoch 69 % 100) train loss: 0.1940825543037696, eval loss: 0.19514483833184756
+(Iteration 1 ) loss: 0.212061
+(Iteration 21 ) loss: 0.240628
+(Iteration 41 ) loss: 0.199718
+(Iteration 61 ) loss: 0.175032
+(Iteration 81 ) loss: 0.227740
+(Iteration 101 ) loss: 0.186392
+(Iteration 121 ) loss: 0.171429
+(Epoch 70 % 100) train loss: 0.18923714762830168, eval loss: 0.19245051952519793
+(Iteration 1 ) loss: 0.207951
+(Iteration 21 ) loss: 0.200210
+(Iteration 41 ) loss: 0.194946
+(Iteration 61 ) loss: 0.161240
+(Iteration 81 ) loss: 0.197385
+(Iteration 101 ) loss: 0.200133
+(Iteration 121 ) loss: 0.181413
+(Epoch 71 % 100) train loss: 0.1868149131985832, eval loss: 0.18974520238264547
+(Iteration 1 ) loss: 0.204611
+(Iteration 21 ) loss: 0.154237
+(Iteration 41 ) loss: 0.184519
+(Iteration 61 ) loss: 0.235115
+(Iteration 81 ) loss: 0.179672
+(Iteration 101 ) loss: 0.194656
+(Iteration 121 ) loss: 0.158796
+(Epoch 72 % 100) train loss: 0.18648992936886122, eval loss: 0.18528224733528814
+(Iteration 1 ) loss: 0.164251
+(Iteration 21 ) loss: 0.183425
+(Iteration 41 ) loss: 0.165927
+(Iteration 61 ) loss: 0.199765
+(Iteration 81 ) loss: 0.177173
+(Iteration 101 ) loss: 0.188723
+(Iteration 121 ) loss: 0.175785
+(Epoch 73 % 100) train loss: 0.17405027499192818, eval loss: 0.1822329788841813
+(Iteration 1 ) loss: 0.185488
+(Iteration 21 ) loss: 0.191465
+(Iteration 41 ) loss: 0.198517
+(Iteration 61 ) loss: 0.165821
+(Iteration 81 ) loss: 0.207860
+(Iteration 101 ) loss: 0.156574
+(Iteration 121 ) loss: 0.118300
+(Epoch 74 % 100) train loss: 0.18649543372847457, eval loss: 0.17961688109694957
+(Iteration 1 ) loss: 0.203932
+(Iteration 21 ) loss: 0.193352
+(Iteration 41 ) loss: 0.148199
+(Iteration 61 ) loss: 0.220372
+(Iteration 81 ) loss: 0.187865
+(Iteration 101 ) loss: 0.183304
+(Iteration 121 ) loss: 0.162677
+(Epoch 75 % 100) train loss: 0.17726419089718945, eval loss: 0.17564486387068637
+(Iteration 1 ) loss: 0.146521
+(Iteration 21 ) loss: 0.159609
+(Iteration 41 ) loss: 0.153664
+(Iteration 61 ) loss: 0.142338
+(Iteration 81 ) loss: 0.217521
+(Iteration 101 ) loss: 0.164282
+(Iteration 121 ) loss: 0.174308
+(Epoch 76 % 100) train loss: 0.17559539707773336, eval loss: 0.17300164134678211
+(Iteration 1 ) loss: 0.178497
+(Iteration 21 ) loss: 0.181249
+(Iteration 41 ) loss: 0.233104
+(Iteration 61 ) loss: 0.156315
+(Iteration 81 ) loss: 0.151271
+(Iteration 101 ) loss: 0.163340
+(Iteration 121 ) loss: 0.179304
+(Epoch 77 % 100) train loss: 0.16724351846437704, eval loss: 0.1693961752660228
+(Iteration 1 ) loss: 0.159437
+(Iteration 21 ) loss: 0.124625
+(Iteration 41 ) loss: 0.155246
+(Iteration 61 ) loss: 0.179900
+(Iteration 81 ) loss: 0.160361
+(Iteration 101 ) loss: 0.169228
+(Iteration 121 ) loss: 0.157191
+(Epoch 78 % 100) train loss: 0.16790445094829595, eval loss: 0.16665923286190543
+(Iteration 1 ) loss: 0.167328
+(Iteration 21 ) loss: 0.139333
+(Iteration 41 ) loss: 0.176258
+(Iteration 61 ) loss: 0.209900
+(Iteration 81 ) loss: 0.161088
+(Iteration 101 ) loss: 0.201261
+(Iteration 121 ) loss: 0.187915
+(Epoch 79 % 100) train loss: 0.16710023493558537, eval loss: 0.16421125601842396
+(Iteration 1 ) loss: 0.156883
+(Iteration 21 ) loss: 0.153748
+(Iteration 41 ) loss: 0.156222
+(Iteration 61 ) loss: 0.212080
+(Iteration 81 ) loss: 0.164829
+(Iteration 101 ) loss: 0.149673
+(Iteration 121 ) loss: 0.170942
+(Epoch 80 % 100) train loss: 0.1572793074925289, eval loss: 0.1602284564584969
+(Iteration 1 ) loss: 0.130061
+(Iteration 21 ) loss: 0.194820
+(Iteration 41 ) loss: 0.155755
+(Iteration 61 ) loss: 0.139301
+(Iteration 81 ) loss: 0.125649
+(Iteration 101 ) loss: 0.124439
+(Iteration 121 ) loss: 0.177880
+(Epoch 81 % 100) train loss: 0.15700011361650296, eval loss: 0.15708033218747575
+(Iteration 1 ) loss: 0.146986
+(Iteration 21 ) loss: 0.161692
+(Iteration 41 ) loss: 0.146670
+(Iteration 61 ) loss: 0.173149
+(Iteration 81 ) loss: 0.144281
+(Iteration 101 ) loss: 0.138318
+(Iteration 121 ) loss: 0.171859
+(Epoch 82 % 100) train loss: 0.1539345156770656, eval loss: 0.1541027867291577
+(Iteration 1 ) loss: 0.161100
+(Iteration 21 ) loss: 0.182299
+(Iteration 41 ) loss: 0.166067
+(Iteration 61 ) loss: 0.154259
+(Iteration 81 ) loss: 0.127326
+(Iteration 101 ) loss: 0.126855
+(Iteration 121 ) loss: 0.119105
+(Epoch 83 % 100) train loss: 0.14489139551140492, eval loss: 0.1519372498213478
+(Iteration 1 ) loss: 0.172481
+(Iteration 21 ) loss: 0.162426
+(Iteration 41 ) loss: 0.109031
+(Iteration 61 ) loss: 0.158360
+(Iteration 81 ) loss: 0.221520
+(Iteration 101 ) loss: 0.140334
+(Iteration 121 ) loss: 0.141171
+(Epoch 84 % 100) train loss: 0.14607495446380964, eval loss: 0.14876026280404045
+(Iteration 1 ) loss: 0.096800
+(Iteration 21 ) loss: 0.129721
+(Iteration 41 ) loss: 0.169336
+(Iteration 61 ) loss: 0.114163
+(Iteration 81 ) loss: 0.170179
+(Iteration 101 ) loss: 0.121141
+(Iteration 121 ) loss: 0.167288
+(Epoch 85 % 100) train loss: 0.14720692441827143, eval loss: 0.14578768353273977
+(Iteration 1 ) loss: 0.155928
+(Iteration 21 ) loss: 0.186848
+(Iteration 41 ) loss: 0.177384
+(Iteration 61 ) loss: 0.157312
+(Iteration 81 ) loss: 0.157207
+(Iteration 101 ) loss: 0.133059
+(Iteration 121 ) loss: 0.132881
+(Epoch 86 % 100) train loss: 0.1429512568314967, eval loss: 0.1428155046678736
+(Iteration 1 ) loss: 0.139632
+(Iteration 21 ) loss: 0.132744
+(Iteration 41 ) loss: 0.147886
+(Iteration 61 ) loss: 0.147392
+(Iteration 81 ) loss: 0.142490
+(Iteration 101 ) loss: 0.127238
+(Iteration 121 ) loss: 0.152016
+(Epoch 87 % 100) train loss: 0.14554753579626709, eval loss: 0.14018276850772413
+(Iteration 1 ) loss: 0.148284
+(Iteration 21 ) loss: 0.123852
+(Iteration 41 ) loss: 0.117504
+(Iteration 61 ) loss: 0.152845
+(Iteration 81 ) loss: 0.145362
+(Iteration 101 ) loss: 0.127676
+(Iteration 121 ) loss: 0.135149
+(Epoch 88 % 100) train loss: 0.1379299218386461, eval loss: 0.13761118299653397
+(Iteration 1 ) loss: 0.130106
+(Iteration 21 ) loss: 0.162222
+(Iteration 41 ) loss: 0.111696
+(Iteration 61 ) loss: 0.131513
+(Iteration 81 ) loss: 0.141548
+(Iteration 101 ) loss: 0.167333
+(Iteration 121 ) loss: 0.140630
+(Epoch 89 % 100) train loss: 0.13525367248647052, eval loss: 0.13989707063365536
+(Iteration 1 ) loss: 0.152048
+(Iteration 21 ) loss: 0.126791
+(Iteration 41 ) loss: 0.102943
+(Iteration 61 ) loss: 0.105248
+(Iteration 81 ) loss: 0.128317
+(Iteration 101 ) loss: 0.156937
+(Iteration 121 ) loss: 0.165762
+(Epoch 90 % 100) train loss: 0.12889764617597027, eval loss: 0.13099875797137386
+(Iteration 1 ) loss: 0.129768
+(Iteration 21 ) loss: 0.130784
+(Iteration 41 ) loss: 0.166051
+(Iteration 61 ) loss: 0.134013
+(Iteration 81 ) loss: 0.115443
+(Iteration 101 ) loss: 0.124173
+(Iteration 121 ) loss: 0.119737
+(Epoch 91 % 100) train loss: 0.13018526054289523, eval loss: 0.12803267473484484
+(Iteration 1 ) loss: 0.129221
+(Iteration 21 ) loss: 0.146914
+(Iteration 41 ) loss: 0.125490
+(Iteration 61 ) loss: 0.141872
+(Iteration 81 ) loss: 0.120961
+(Iteration 101 ) loss: 0.137476
+(Iteration 121 ) loss: 0.150198
+(Epoch 92 % 100) train loss: 0.13104152859921964, eval loss: 0.12544079812699466
+(Iteration 1 ) loss: 0.118143
+(Iteration 21 ) loss: 0.147489
+(Iteration 41 ) loss: 0.146613
+(Iteration 61 ) loss: 0.094762
+(Iteration 81 ) loss: 0.103376
+(Iteration 101 ) loss: 0.124084
+(Iteration 121 ) loss: 0.151537
+(Epoch 93 % 100) train loss: 0.1263532769333816, eval loss: 0.12407277328415615
+(Iteration 1 ) loss: 0.155113
+(Iteration 21 ) loss: 0.141234
+(Iteration 41 ) loss: 0.108770
+(Iteration 61 ) loss: 0.120826
+(Iteration 81 ) loss: 0.105808
+(Iteration 101 ) loss: 0.110796
+(Iteration 121 ) loss: 0.107602
+(Epoch 94 % 100) train loss: 0.12414875325185906, eval loss: 0.12042339735518443
+(Iteration 1 ) loss: 0.118821
+(Iteration 21 ) loss: 0.097688
+(Iteration 41 ) loss: 0.095778
+(Iteration 61 ) loss: 0.127934
+(Iteration 81 ) loss: 0.136968
+(Iteration 101 ) loss: 0.110414
+(Iteration 121 ) loss: 0.121883
+(Epoch 95 % 100) train loss: 0.10708718522940626, eval loss: 0.11854327239718819
+(Iteration 1 ) loss: 0.113642
+(Iteration 21 ) loss: 0.138231
+(Iteration 41 ) loss: 0.126913
+(Iteration 61 ) loss: 0.115560
+(Iteration 81 ) loss: 0.110790
+(Iteration 101 ) loss: 0.124552
+(Iteration 121 ) loss: 0.115716
+(Epoch 96 % 100) train loss: 0.11232343586364243, eval loss: 0.11564991349579176
+(Iteration 1 ) loss: 0.101003
+(Iteration 21 ) loss: 0.123906
+(Iteration 41 ) loss: 0.088999
+(Iteration 61 ) loss: 0.138602
+(Iteration 81 ) loss: 0.097002
+(Iteration 101 ) loss: 0.095563
+(Iteration 121 ) loss: 0.100204
+(Epoch 97 % 100) train loss: 0.11754293346836012, eval loss: 0.11357990411290854
+(Iteration 1 ) loss: 0.136129
+(Iteration 21 ) loss: 0.114037
+(Iteration 41 ) loss: 0.135783
+(Iteration 61 ) loss: 0.092375
+(Iteration 81 ) loss: 0.141315
+(Iteration 101 ) loss: 0.133983
+(Iteration 121 ) loss: 0.133015
+(Epoch 98 % 100) train loss: 0.11853492363523503, eval loss: 0.1119702750228771
+(Iteration 1 ) loss: 0.112789
+(Iteration 21 ) loss: 0.076088
+(Iteration 41 ) loss: 0.121587
+(Iteration 61 ) loss: 0.127729
+(Iteration 81 ) loss: 0.099336
+(Iteration 101 ) loss: 0.088929
+(Iteration 121 ) loss: 0.107372
+(Epoch 99 % 100) train loss: 0.11121786008792563, eval loss: 0.10908578882617219
+True

@@ -1,0 +1,25 @@
+2022-10-18 14:20:52,250 INFO    MainThread:17676 [wandb_setup.py:_flush():68] Configure stats pid to 17676
+2022-10-18 14:20:52,253 INFO    MainThread:17676 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wangyon\.config\wandb\settings
+2022-10-18 14:20:52,253 INFO    MainThread:17676 [wandb_setup.py:_flush():68] Loading settings from W:\VSCode\deeplearning\homework1\wandb\settings
+2022-10-18 14:20:52,253 INFO    MainThread:17676 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-18 14:20:52,254 INFO    MainThread:17676 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'homework1\\train.py', 'program': 'w:\\VSCode\\deeplearning\\homework1\\train.py'}
+2022-10-18 14:20:52,255 INFO    MainThread:17676 [wandb_init.py:_log_setup():476] Logging user logs to W:\VSCode\deeplearning\homework1\wandb\run-20221018_142052-j7h0ng66\logs\debug.log
+2022-10-18 14:20:52,256 INFO    MainThread:17676 [wandb_init.py:_log_setup():477] Logging internal logs to W:\VSCode\deeplearning\homework1\wandb\run-20221018_142052-j7h0ng66\logs\debug-internal.log
+2022-10-18 14:20:52,259 INFO    MainThread:17676 [wandb_init.py:init():516] calling init triggers
+2022-10-18 14:20:52,260 INFO    MainThread:17676 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-10-18 14:20:52,262 INFO    MainThread:17676 [wandb_init.py:init():569] starting backend
+2022-10-18 14:20:52,263 INFO    MainThread:17676 [wandb_init.py:init():573] setting up manager
+2022-10-18 14:20:52,276 INFO    MainThread:17676 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-10-18 14:20:52,293 INFO    MainThread:17676 [wandb_init.py:init():580] backend started and connected
+2022-10-18 14:20:52,308 INFO    MainThread:17676 [wandb_init.py:init():658] updated telemetry
+2022-10-18 14:20:52,652 INFO    MainThread:17676 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-18 14:20:54,583 INFO    MainThread:17676 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-18 14:20:55,878 INFO    MainThread:17676 [wandb_run.py:_on_init():2004] got version response 
+2022-10-18 14:20:55,879 INFO    MainThread:17676 [wandb_init.py:init():728] starting run threads in backend
+2022-10-18 14:21:00,121 INFO    MainThread:17676 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-18 14:21:00,125 INFO    MainThread:17676 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-18 14:21:00,126 INFO    MainThread:17676 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-18 14:21:00,127 INFO    MainThread:17676 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-18 14:21:00,129 INFO    MainThread:17676 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-18 14:21:00,159 INFO    MainThread:17676 [wandb_run.py:_config_callback():1160] config_cb None None {'save_path': './result', 'data_path': './data', 'gpuid': 0, 'epochs': 100, 'alias': 0, 'wandb': True, 'batch_size': 64, 'learning_rate': 0.001, 'optimer': 'adam', 'hidden_dim': 32, 'n_layers': 3, 'activation': 'Relu'}

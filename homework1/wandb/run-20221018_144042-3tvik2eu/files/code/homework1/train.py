@@ -24,13 +24,13 @@ parser.add_argument("--epochs",type=int,nargs="?",default = 100,help="train epoc
 parser.add_argument("--alias",type=str,nargs="?",default=0,
                     help = "Please enter the alias")
 parser.add_argument("--wandb",action="store_false")
-parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 32,
+parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 64,
                     help = "train batch size")
 parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-3,
                     help = "learning rate")
 parser.add_argument("--optimer",type=str,nargs="?",default="adam",
                     help = "optimier to train")
-parser.add_argument("--hidden-dim",type=int,nargs="?",default = 32,
+parser.add_argument("--hidden-dim",type=int,nargs="?",default = 16,
                     help = "width size of the NN")
 parser.add_argument("--n-layers",type=int,nargs="?",default=3,
                     help = "depth size of the NN")

@@ -1,0 +1,100 @@
+diff --git a/homework1/src/__pycache__/model.cpython-310.pyc b/homework1/src/__pycache__/model.cpython-310.pyc
+index 8e1fb72..9d7746f 100644
+Binary files a/homework1/src/__pycache__/model.cpython-310.pyc and b/homework1/src/__pycache__/model.cpython-310.pyc differ
+diff --git a/homework1/src/model.py b/homework1/src/model.py
+index 136aa08..a015286 100644
+--- a/homework1/src/model.py
++++ b/homework1/src/model.py
+@@ -13,7 +13,7 @@ class Model(nn.Module):
+         self.proj_layer  = nn.Linear(1,self.hidden_dim)
+         self.activation = self.activation
+         self.hidd_layers = nn.Sequential()
+-        for _ in range(self.n_layers):
++        for _ in range(self.n_layers-2):
+             self.hidd_layers.append(nn.Linear(self.hidden_dim,self.hidden_dim))
+             self.hidd_layers.append(self.activation)
+         self.out_layer = nn.Linear(self.hidden_dim,1)
+diff --git a/homework1/test.py b/homework1/test.py
+index 6868a7f..054fb84 100644
+--- a/homework1/test.py
++++ b/homework1/test.py
+@@ -1,5 +1,6 @@
+ import os
+ import sys
++import math
+ 
+ import torch
+ import torch.nn as nn
+@@ -7,12 +8,15 @@ from torch.utils.data import Dataset,DataLoader
+ import numpy as np
+ import argparse
+ import pandas as pd
++
+ from tensorboardX import SummaryWriter
+ from src.Solver import Solver
+ from src.registry import optimier,Activation
+ 
+ from src.model import Model
+ 
++import matplotlib.pyplot as plt
++
+ parser = argparse.ArgumentParser("Train a simple Neural Network")
+ parser.add_argument("--save-path",type=str,nargs="?",default = "./result",
+                     help = "Please enter the directory of saving results")
+@@ -23,13 +27,13 @@ parser.add_argument("--epochs",type=int,nargs="?",default = 100,help="train epoc
+ parser.add_argument("--alias",type=str,nargs="?",default=0,
+                     help = "Please enter the alias")
+ parser.add_argument("--wandb",action="store_false")
+-parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 64,
++parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 32,
+                     help = "train batch size")
+-parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-5,
++parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-3,
+                     help = "learning rate")
+ parser.add_argument("--optimer",type=str,nargs="?",default="adam",
+                     help = "optimier to train")
+-parser.add_argument("--hidden-dim",type=int,nargs="?",default = 64,
++parser.add_argument("--hidden-dim",type=int,nargs="?",default = 32,
+                     help = "width size of the NN")
+ parser.add_argument("--n-layers",type=int,nargs="?",default=3,
+                     help = "depth size of the NN")
+@@ -101,7 +105,12 @@ loss = torch.mean((test_y - preds_y)**2)
+ 
+ # solver = Solver(model,data,logger,**vars(argv))
+ 
+-
++x = np.linspace(0,4*math.pi,1000)
++y = np.sin(x) + np.exp(-x)
++x_ = torch.tensor(x).unsqueeze(1)
++plt.plot(x,y,color = 'red')
++plt.plot(x,model(x_).detach().numpy(),color = 'green')
++plt.show()
+ 
+ print(loss)
+ 
+diff --git a/homework1/train.py b/homework1/train.py
+index 3bf0c49..a9a4319 100644
+--- a/homework1/train.py
++++ b/homework1/train.py
+@@ -24,17 +24,17 @@ parser.add_argument("--epochs",type=int,nargs="?",default = 100,help="train epoc
+ parser.add_argument("--alias",type=str,nargs="?",default=0,
+                     help = "Please enter the alias")
+ parser.add_argument("--wandb",action="store_false")
+-parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 64,
++parser.add_argument("--batch-size","-bs",type=int,nargs="?",default = 32,
+                     help = "train batch size")
+-parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-5,
++parser.add_argument("--learning-rate","-lr",nargs="?",default=1e-3,
+                     help = "learning rate")
+ parser.add_argument("--optimer",type=str,nargs="?",default="adam",
+                     help = "optimier to train")
+-parser.add_argument("--hidden-dim",type=int,nargs="?",default = 64,
++parser.add_argument("--hidden-dim",type=int,nargs="?",default = 32,
+                     help = "width size of the NN")
+ parser.add_argument("--n-layers",type=int,nargs="?",default=3,
+                     help = "depth size of the NN")
+-parser.add_argument("--activation",type = str,nargs="?",default = "Relu",
++parser.add_argument("--activation",type = str,nargs="?",default = "S",
+                     help = "nonlinear activation function")
+ 
+ 
